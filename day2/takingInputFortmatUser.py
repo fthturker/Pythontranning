@@ -36,5 +36,3 @@ print(type(num2))   # str
 
 print(float(num1)+float(num2)) # 31.0
 
-# Control statements
-# normal olarak programınızı yazdığınızda program adım adım doğru şekilde yürütülür
