@@ -30,5 +30,21 @@
 # print(mylist[-4:-1]) # ['orange', 'kiwi', 'melon']
 
 #Example4 : change item values
-mylist=["apple","banana","cherry"]
+# mylist=["apple","banana","cherry"]
+# print(mylist) # ['apple', 'banana', 'cherry']
+# # ilk öğeyi değiştirmek istiyorum
+# mylist[0]="orange"
+# print(mylist) # ['orange', 'banana', 'cherry']
 
+#Example5: read the items using loop  (öğeleri nasıl okuyacağız loop deyimini kullanarak)
+# mylist=["apple","banana","cherry"]
+# for i in mylist:
+#     print(i)
+
+#Example6 : check if the item is exist in the list or not
+mylist=["apple","banana","cherry"]
+# apple 'ın bu listede olup olmadığını kontrol etmek istiyorum
+if "apple" in mylist:
+    print("yes, apple is present") # yes, apple is present
+else:
+    print("no, apple is not present")
