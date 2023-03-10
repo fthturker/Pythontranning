@@ -1,0 +1,26 @@
+Collections (koleksiyonlar)
+python'da 4 tür koleksiyon vardır
+list     --- liste
+Tuple    --- demet
+Set      --- küme
+Dictionary - sözlük
+
+neden koleksiyonları kullanırız
+farklı depolamak için  birden çok veri kümesini depolamak istiyorsanız, aynı türde veriler veya 
+farklı türde veriler olabilir, veriler herhangi bir türde olabilir, bu nedenle depelamak istiyorum
+birden çok değeri tek bir değişkene koyun, böylece koleksiyonlara devam edebiliriz
+böylece birden çok koleksiyon var, liste demetleri seti ve sözlük var, böylece ihtiyacımıza bağlı olarak,
+verileri korumak için uygun koleksiyonu seçmemiz gerekiyor 
+
+List
+------
+birden çok değeri depolayabilen 
+1-) A list is a collection which is ordered and changeable. -- sıralı ve değiştirilebilir koleksiyondur
+yani listeye ekleyeceğimiz değerler ne olursa olsun o değerler doğru sırayla saklanacak
+ve listedeki değerleri hangi sırayla sakladıysak aynı sırayla o olacak korunmuş,
+değiştirilebilir ise bu değerleri istediğimiz zaman değiştirebileceğimiz anlamına gelir,
+bu nedenle değerlerin düzenli bir şekilde hizalandığı ve her zaman değiştirilebilir olduğu  
+2-) In python lists are written with square brackets [].    -- python'da liste köşeli parantezlerle yazılır 
+3-) List is mutable. -- bir liste değişkendir,değişken değişiklik yapabileceğimiz anlamına gelir 
+var olan değerleri değiştirebileceğimiz veya yeni değerler ekleyebileceğimiz veya 
+listeye yeni değerler ekleyebileceğimiz ve bunları da kaldırabileceğimiz anlamına geliyor
