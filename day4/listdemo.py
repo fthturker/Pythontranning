@@ -42,9 +42,70 @@
 #     print(i)
 
 #Example6 : check if the item is exist in the list or not
-mylist=["apple","banana","cherry"]
-# apple 'ın bu listede olup olmadığını kontrol etmek istiyorum
-if "apple" in mylist:
-    print("yes, apple is present") # yes, apple is present
-else:
-    print("no, apple is not present")
+# mylist=["apple","banana","cherry"]
+# # apple 'ın bu listede olup olmadığını kontrol etmek istiyorum
+# if "apple" in mylist:
+#     print("yes, apple is present") # yes, apple is present
+# else:
+#     print("no, apple is not present")
+
+#Example7 : list length (counting number of items in a list)
+# listenin uzunluğunu bulmak istiyorum. listedeki toplam öğe sayısını bulmak istiuorum.
+# mylist=["apple","banana","cherry"]
+# print(len(mylist))  # 3
+
+#Example8 : Add items
+"""
+listeye yeni bir öğe eklemek istiyorum. eklemek için öğeler listeye yeni bir öğe var.
+iki fonksiyonumuz var
+1-) append()
+2-) insert()
+"""
+# mylist=["apple","banana","cherry"]
+# #mylist.append("orange")
+# #print(mylist)  # ['apple', 'banana', 'cherry', 'orange']
+# # yeni eklenen öğe listenin sonuna eklenir
+# # listenin ortasına bir yere bir değer eklemek istediğimi varsayalım
+# # insert kullandığımda öğeyi tam olarak nereye eklediğimizi söylememiz gerekiyor
+# # böylece bunun için dizini de belirtmemiz gerekiyor indeks virgül öğe değeri
+# mylist.insert(1,"orange") # add item some where in the middle of the list based on the index
+# print(mylist) # ['apple', 'orange', 'banana', 'cherry']
+
+#Example9 : remove item from the list
+"""
+öğeyi listeden çıkarmak istiyorum
+üç yöntem var
+1- pop()
+2- del
+del tam olarak işlev değil aslında bu bir anahtar kelime yani del tam olarak fonksiyon değil 
+ve anahtar kelime ile fonksiyon arasındaki fark nedir,
+eğer bir fonksiyon ise, () parantezlerimiz var ve anahtar bir kelime varsa sadece del olarak kullanmalıyız
+3- clear()
+listedeki tek bir öğeyi değil, listedeki tüm öğeleri temizleyecek
+"""
+# mylist=["apple","banana","cherry"]
+# mylist.pop(0) # here we should specify index not the value
+# print(mylist) # ['banana', 'cherry']
+
+# mylist=["apple","banana","cherry"]
+# del mylist[2] # here del command removes single item based on the index
+# print(mylist) # ['apple', 'banana']
+
+# mylist=["apple","banana","cherry"]
+# mylist.clear()
+# print(mylist) # []
+
+#Example10 : copy list kopyalama listesi
+# list()
+# mylist1=["apple","banana","cherry"]
+# mylist2=list(mylist1)
+# print(mylist1) # ['apple', 'banana', 'cherry']
+# print(mylist2) # ['apple', 'banana', 'cherry']
+
+#copy()
+mylist1=["apple","banana","cherry"]
+mylist2=mylist1.copy()
+print(mylist1) # ['apple', 'banana', 'cherry']
+print(mylist2) # ['apple', 'banana', 'cherry']
+
+# iki listeyi birleştirmek istiyorum
