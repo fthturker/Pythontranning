@@ -96,13 +96,35 @@ product=500
 #aynı anda birden çok öğe ekleyemeyiz bu nedenle birden çok ifade yazmak zorunddayız
 
 #Example8: remove item from dicitonary
-mydic={
+# mydic={
+#      "brand":"hnydai",
+#      "model":"i10",
+#      "year":2021
+# }
+# mydic.pop("year")
+# print(mydic) # {'brand': 'hnydai', 'model': 'i10'}
+
+# del mydic["year"]
+# print(mydic) # {'brand': 'hnydai', 'model': 'i10'}
+
+#tüm sözlüğü silmek istiyorum
+# del mydic
+# print(mydic) # NameError: name 'mydic' is not defined
+#
+# mydic.clear()
+# print(mydic) # {}
+
+#Example9: copying dictionary
+mydic1={
      "brand":"hnydai",
      "model":"i10",
      "year":2021
 }
-# mydic.pop("year")
-# print(mydic) # {'brand': 'hnydai', 'model': 'i10'}
+#using copy()
+# mydic2=mydic1.copy()
+# print(mydic2) # {'brand': 'hnydai', 'model': 'i10', 'year': 2021}
 
-del mydic["year"]
-print(mydic) # {'brand': 'hnydai', 'model': 'i10'}
+# without using copy()
+# mydic2=mydic1
+# print(mydic2) # {'brand': 'hnydai', 'model': 'i10', 'year': 2021}
+
