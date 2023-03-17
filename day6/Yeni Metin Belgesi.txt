@@ -1,0 +1,31 @@
+Functions
+-------------------
+Function --> bir ifadeler kümesi anlamına gelir, görevi gerçekleştirecek olan ifadeler kümesi,
+		 bir görevi gerçekleştirecek olan ifadeler kümesi olarak adlandırılır
+1-) işlev bildirimi/oluşturma (funtion declaration/creation)
+2_) işlevi çağırma (calling the function/invoking function)
+
+def ---> creat function
+functionname() ---> funtion call
+
+işlevin ana kullanımı yeniden kullanabilirliktir, bu nedenle bir işlevi derecelendirdiğinizde aynı çağrıyı çağırabiliriz veya
+aynı işlevi birçok kez çağırabiliriz
+
+function oluşturmanın yolları:
+1-) function does not take arguments not returns any value(None)
+işlev bağımsız değişken almaz herhangi bir değer döndürmez
+2-) function does not take arguments but returns some value
+işlev bağımsız değişken almaz ancak bazı değerler döndürür
+3-) function takes arguments but no return value
+işlev bağımsız değişken al, ancak yazılı değer işlevi yok
+4-) function takes arguments and also return value
+bağımsız değer işlevi yok bağımsız değişkenleri al ve ayrıca biraz matematik döndür
+
+çok farklı fonsiyon kombinasyonları gereksinimlerimize bağlıdır.
+
+Global & local variables
+------------------------
+The variables create outside of function are called as Global variables
+fonksiyon dışında oluşturulan değişkenlere global değişkenler denir. bu değişkenlere her yerden erişebiliriz.
+The variables create inside of the functions called as Local variables
+fonksiyon içinde oluşturulan ve sadece fonksiyon içinde erişebildiğimiz bu değişkenlere yerel değişkenler denir.
