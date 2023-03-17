@@ -25,3 +25,10 @@
 # print(func()) # None
 
 #Example5:
+# def cal(a,b):
+#     print(a+b) # hiçbir şey döndürmeyecek çünkü sadece buraya yazdırıyor
+# cal(10,20) # 30
+
+def cal(a,b):
+    return(a+b) #çıktı al yerine baskıya geri dön diyorum
+print(cal(10,20)) # 30
