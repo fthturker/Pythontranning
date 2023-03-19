@@ -57,4 +57,4 @@ cool() #200
 print(xy) #200
 
 #Example4:
->>>>>>> origin/master
+
