@@ -19,6 +19,7 @@
 
 #Example3: Using global variable in local variable and update value
 # global değişkeni local değişkenin içinde kullanarak update ettik.
+<<<<<<< HEAD
 # xy=100 # global variable
 # def cool():
 #     global xy
@@ -46,3 +47,14 @@ def cool():
 cool() # 100
 print(x) # 100
 # burada global değişkenleri de fonksiyonun içinde de oluşturabiliriz ama global anahtar kelime ile başvurmalıyız.
+=======
+xy=100 # global variable
+def cool():
+    global xy
+    xy=200 # global variable
+    print(xy)
+cool() #200
+print(xy) #200
+
+#Example4:
+>>>>>>> origin/master
