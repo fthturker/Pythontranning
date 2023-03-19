@@ -29,3 +29,8 @@ The variables create outside of function are called as Global variables
 fonksiyon dışında oluşturulan değişkenlere global değişkenler denir. bu değişkenlere her yerden erişebiliriz.
 The variables create inside of the functions called as Local variables
 fonksiyon içinde oluşturulan ve sadece fonksiyon içinde erişebildiğimiz bu değişkenlere yerel değişkenler denir.
+
+2 types of arguments/parameters we can pass to the function
+
+1-) Positional arguments
+2-) Keyword arguments

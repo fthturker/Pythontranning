@@ -19,7 +19,7 @@
 
 #Example3: Using global variable in local variable and update value
 # global değişkeni local değişkenin içinde kullanarak update ettik.
-<<<<<<< HEAD
+
 # xy=100 # global variable
 # def cool():
 #     global xy
@@ -47,14 +47,7 @@ def cool():
 cool() # 100
 print(x) # 100
 # burada global değişkenleri de fonksiyonun içinde de oluşturabiliriz ama global anahtar kelime ile başvurmalıyız.
-=======
-xy=100 # global variable
-def cool():
-    global xy
-    xy=200 # global variable
-    print(xy)
-cool() #200
-print(xy) #200
-
-#Example4:
-
+#there is no need to declare global variables outside fhe function
+#global değişkenleri fonksiyonun dışında bildirmeye gerek yok bazen fonksiyonun içinde de bildirebiliriz ama
+#You can declare them global inside the function. - global
+#global anahtar kelimeyi belirtmeliyiz global anahtar kelimeyi kullanmamız gerekiyor
