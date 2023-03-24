@@ -1,0 +1,155 @@
+Python - structured +object oriented
+		yapı    + nesne yönelimli
+
+
+java neden tamamen nesne yönelimli bir programdır çünkü java'da bir sınıf oluşturmadan tek bir program yazamayız.
+bu nedenle nesne yönelimli programlarda ana varlık bir sınıftır.
+nesne yönelimli programlama kavramı sınıf ve nesne
+
+oops --- object oriented programming system  
+--------
+class
+object
+inheriteance  (kalıtım)
+Polymorphism 
+
+class  object
+
+Employee  ---> Jhon, scott, mary, etc...
+Animal    ---> Dog, Horse, Elephant, etc...
+
+class  ---> collection of variables(attributes) & methods(behavior)
+sınıf --> değişkenlerin ve yöntemlerin bir koleksiyonundan başka birşey değildir
+A classs is blue print 
+Logical entity
+Does not occupy space in the memory
+
+object ---> object is an instance of class ---nesne, bir sınıfın bir örneğidir, sınıfın fiziksel biçimini veriyoruz. 
+Physical entity ---fiziksel bir varlıktır
+Occupy vertain amount space in the memory    ----içinde belirli bir yer kaplar bellekte
+
+For one class, we can create multiple objects.
+bir sınıf için birden fazla nesne oluşturabiliriz
+Objects are indipendent...
+ama nesneler bağımsız 
+
+
+Function  Vs Method
+-------------------
+eğer aynı fonksiyonu sınıf içinde yaratırsam buna method
+
+Function --> we can create without class --- sınıf olmadan oluşturabiliriz
+Method ---> creates in side the class   ---- sınıfın içinde oluşturur
+
+eğer sınıfsız bir fonksiyon yaratırsanız buna fonksiyon diyebiliriz
+aynı fonksiyonu sınıf içinde yaratırsam ona method diyebiliriz
+
+2 types of methods we can define within the class.....
+sınıf içinde 2 tip method tanımlayabiliriz
+1-) instance method (we can call only through object)
+bu methotlar sadece nesne aracılığıyla çağırabilirz
+2-) static method (we can directly call using class)
+bir sınıf adını kullanarak doğrudan çağırabileceğimiz yöntemler, bunun için nesne oluşturmamıza gerek yok
+
+annotation @staticmethod
+
+Global variables
+class variables
+local variables
+
+yöntem içinde bir değişken yarattığımda onları yerel değişken olarak adlandırabiliriz
+
+method & constructor
+-------------------
+Method:
+    give any name
+    return the value(s)
+    method can take arguments/parameters
+    we have to use an object to invoke the method
+# herhengi bir ad verebileceğimiz anlamına gelir
+# değer(leri) döndürür
+#bağımsız değişkenleri veya parametreleri de alabilir
+# yöntemi çağırmak için bir nesne kullanmak zorundayız
+
+Constructor(yapıcı):
+    constructor name is fixed:
+                __init__(self):
+    costructor will not return any value
+    method can take arguments/parameters
+    will be call at the time of object creation itself.
+
+# herhangi bir değer döndürmez
+# bağımsız değişkenleri veya parametreleri de alabilir
+# yapıcının kendisi otomatik olarak çağrılır, yapıcıyı açıkça çağırmamıza gerek yok,
+bu nedenle nesnenin kendisi yaratıldığı sırada çağrılacaktır.
+
+
+Inheritance (kalıtım)
+---------------------
+Aquiring all the attributes(variables) & behavior(methods) from one class to another class is called as inheritance.
+
+Parent -----> properties
+child ------>
+
+ebeveyne ait özellikler ne olursa olsun bu özelliklede çocuğa gelir, bu nedenle chill her şeyi ebeveynden alır
+buna temelde kalıtım denir.
+
+yani değişkenler veya yöntemler ne olursa olsun onları bir sınıfta oluşturdum, eğer onları başka bir sınıfa alırsam,
+buna miras denir.
+
+class A -----> a,b,c  m1()  m2() ----->A is parent of B class --> A B sınıfının ebeveyni oluyor
+
+class B (A) ----> x,y,z  m3()  ------->B is child of A class
+
+B sınıfından bir nesne oluşturduğunuzda bu nesne aracılığıyla b sınıfına erişebileceğiz.
+
+
+Objectives of inheritance
+-------------------------
+iki ana hedefi vardır.
+1-) code re-usability
+kodun yeniden kullanabilirliği
+2-) Avoid duplication
+tekrardan kaçınmaktır
+
+Types og inheritance
+--------------------
+python'da temel olarak dört tür kalıtım vardır
+1-) single -- tek
+2-) multi level  -- çok düzeyli
+3-) Heirarchy  -- hiyerarşi
+4-) Multiple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
