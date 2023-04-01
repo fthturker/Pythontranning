@@ -1,0 +1,76 @@
+what is WebDriver?
+
+--> WebDriver is one of the component in selenium.
+--> WebDriver is module.
+
+firefox browser ---------> Firefox()
+chrome browser ----------> Chrome()
+edge --------------------> Edge()
+
+--> WebDriver is an API (Application Programming Interface) uygulama programlama arayüzü
+
+api sunum katmanı ile bir arka uç katmanı arasında aracı görevi görür,
+böylece her uygulamnın dahili olarak çok sayıda api's vardır.
+api's asıl önemi, önce veritabanı katmanı kullanıcıdan istkte bulunun ve aynı isteği veritabanı katmanına gönderin
+ve verileri aldığımız yanıt ne olursa olsun işleyin burada aynı yanıt sunum katmanına verilecektir,
+bu yanıt kullanıcı arayüzünde görebildiğimiz bir yanıttır bu nedenle api'nin yapacağı asıl şey bu.
+WebDriver'ın neden bir api olduğunu anlamak için selenium webdriver'ın mimarisinianlamamız gerekiyor.
+
+Web sürücüsünün işi nedir, yani ifadeler ne yazmışsa otomasyon kodumda webdriver bu ifadeleri alıyor veya anlıyor
+ve buna göre webdriver bu ifadeleri test edilen uygulama altında yürütecek.
+otomasyon kodumuz ile tarayıcı arasında bir api görevi görüyor.
+
+Architecture of WebDriver
+------------------------
+Selenium3
+---------
+Selenium Language bindings --> JSON Wire protocol --> Browser drivers --> w3c --> Browsers
+
+Selenium4
+---------
+Selenium Language bindings --> w3c --> Browser drivers --> w3c --> Browsers
+
+
+Setup & configure WebDriver in Pycharm
+--------------------------------------
+Pre-requisites: (ön koşullar)
+---------------
+    Python
+    Pycharm
+
+1) Download browser specific driver using below links...
+aşağıdaki bağlantıları kullanarak tarayıcıya özel süeücüleri indirmemiz gerekiyor
+Chrome: https://chromedriver.chromium.org/downloads
+Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+Firefox: https://github.com/mozilla/geckodriver/releases
+Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10/
+
+indirdikten sonra bu zip dosyalarını çıkarmamız gerekiyor, varsayılan olarak bir zip dosyası alacaksınız
+onları tekrar ayıklamanız gerekiyor, onları sürücüler klasöründe saklayını.
+Once you download, extract .zip files then you will se .exe files (they are drivers)
+
+2) setup selenium webdriver
+    1) Pycharm --> projects setting (ayarlarından yükleyebiliriz)
+    2) pip install selenium==4.8.3 (terminalden yazarak yükleyebilirz)
+
+webdriver is a module which is available in selenium package
+web sürücüsü python içinde mevcut olan bir modüldür.Modüle de selenyum paketinden içe aktarmamız gerekiyor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
